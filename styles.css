@@ -1,0 +1,102 @@
+ /*reset css*/
+ * {
+        margin: 0;
+        padding: 0;
+} 
+
+
+header {
+padding: 3rem;
+color: blanchedalmond;
+background-position: center;
+text-shadow: 3px 3px 3px black;
+font-family:  'Dancing Script', cursive;;
+}
+
+header, h1, h2 {
+font-size: 4rem;
+text-shadow: 3px 3px 3px black;
+}
+
+/* class selector */
+.summary {
+    font-size: 1.3rem;
+}
+/* id selector */
+#zen-preamble {
+    font-size: 1.2rem;
+}
+
+#zen-supporting {
+    font-size: 1.2rem;
+}
+
+#zen-participation {
+    font-size: 1.2rem;
+}
+
+#zen-benefits {
+    font-size: 1.2rem;
+}
+
+#zen-requirements {
+    font-size: 1.2rem;
+}
+
+:not(header) 
+body {
+    background-position: center;
+    width: 100%;
+    background-image: url(./images/laura-vinck-Hyu76loQLdk-unsplash.jpg);
+    padding-bottom: 3rem;
+}
+
+h3 { 
+    padding: 0.2rem;
+    color: blanchedalmond;
+}
+
+body {
+    float: center;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar { 
+    float: right;
+    width: 25%;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: rgba(222, 184, 135, 0.685);
+	}
+
+.page-wrapper { 
+    padding: 0 175px 0 110px;  
+    margin: 0; 
+    position: relative;
+    font-family: 'Righteous',sans-serif;
+     }
+
+     aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 50%;
+        padding: 2rem;
+        box-sizing: border-box;
+        font-size: 1.2rem;
+        font-family: 'Righteous',sans-serif;
+     }
+
+/* for links to not be dark blue and a color of my choice */
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+/* making paragraphs smaller. */
+#zen-requirements, #zen-benefits, #zen-participation, #zen-supporting, .preamble, .summary {
+    width: 75%
+}
